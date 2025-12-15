@@ -1,0 +1,46 @@
+const MenuData = [
+    {
+        id:1,
+        heading:"Christmas",
+    },
+    {
+        id:2,
+        heading:"women",
+    },
+    {
+        id:3,
+        heading:"men",
+    },
+    {
+        id:4,
+        heading:"boys",
+    },
+    {
+        id:5,
+        heading:"girls",
+    },
+    {
+        id:6,
+        heading:"home",
+    },
+    {
+        id:7,
+        heading:"baby",
+    },
+    {
+        id:8,
+        heading:"beauty",
+    },
+    {
+        id:9,
+        heading:"furniture",
+    },
+    {
+        id:10,
+        heading:"brands",
+    },
+    {
+        id:11,
+        heading:"gift & flowers",
+    },
+]
