@@ -1,42 +1,41 @@
-
 import {
-  Facebook,
-  Twitter,
-  Instagram,
-  Youtube,
-  Pinterest,
-  TikTok,
-} from "lucide-react";
+  FaFacebookF,
+  FaTwitter,
+  FaInstagram,
+  FaYoutube,
+  FaPinterestP,
+  FaTiktok,
+} from "react-icons/fa";
 
 export const socialIcons = [
   {
     name: "Facebook",
-    href: "https://www.facebook.com",
-    icon: Facebook,
+    href: "https://facebook.com",
+    icon: FaFacebookF,
   },
   {
     name: "Twitter",
-    href: "https://www.twitter.com",
-    icon: Twitter,
+    href: "https://twitter.com",
+    icon: FaTwitter,
   },
   {
     name: "Instagram",
-    href: "https://www.instagram.com",
-    icon: Instagram,
+    href: "https://instagram.com",
+    icon: FaInstagram,
   },
   {
     name: "YouTube",
-    href: "https://www.youtube.com",
-    icon: Youtube,
+    href: "https://youtube.com",
+    icon: FaYoutube,
   },
   {
     name: "Pinterest",
-    href: "https://www.pinterest.com",
-    icon: Pinterest,
+    href: "https://pinterest.com",
+    icon: FaPinterestP,
   },
   {
     name: "TikTok",
-    href: "https://www.tiktok.com",
-    icon: TikTok,
+    href: "https://tiktok.com",
+    icon: FaTiktok,
   },
 ];

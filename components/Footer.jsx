@@ -1,11 +1,12 @@
 import Container from "./Container"
+import SocialNetwork from "./SocialNetwork"
 
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white">
+    <footer className="bg-gray-900 text-white">
         <Container>
-            Footer
+            <SocialNetwork/>
         </Container>
     </footer>
   )
