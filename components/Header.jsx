@@ -1,8 +1,11 @@
+import HeaderPromotion from "./HeaderPromotion"
 
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <header>
+      <HeaderPromotion/>
+    </header>
   )
 }
 
