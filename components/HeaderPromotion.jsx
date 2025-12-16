@@ -17,7 +17,7 @@ export default function PromoHeader() {
   const startAnimation = () => {
     intervalRef.current = setInterval(() => {
       setIndex((prev) => (prev + 1) % messages.length);
-    }, 3000);
+    }, 5000);
   };
 
   const stopAnimation = () => {
