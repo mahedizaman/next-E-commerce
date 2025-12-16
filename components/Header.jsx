@@ -4,7 +4,7 @@ import HeaderPromotion from "./HeaderPromotion";
 
 const Header = () => {
   return (
-    <header>
+    <header className="bg-[#FFFDF2]">
       <HeaderPromotion />
       <HeaderMain />
       <HeaderMenu />
