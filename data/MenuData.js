@@ -1,4 +1,4 @@
-const MenuData = [
+export const MenuData = [
     {
         id:1,
         heading:"Christmas",
