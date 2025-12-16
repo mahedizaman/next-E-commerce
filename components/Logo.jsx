@@ -1,8 +1,9 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Logo = () => {
   return (
-    <div>
+    <Link href={"/"}>
       <Image
         width={120}
         height={120}
@@ -10,7 +11,7 @@ const Logo = () => {
         alt="Next Logo"
         className="h-6 w-auto"
       />
-    </div>
+    </Link>
   );
 };
 
