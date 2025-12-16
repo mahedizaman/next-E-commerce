@@ -2,19 +2,27 @@ import CheckoutList from "./CheckoutList";
 import Logo from "./Logo";
 import SearchBar from "./SearchBar";
 
-const HeaderMain = () => {
+const HeaderMain = ({ onMenuClick }) => {
   return (
     <header className="w-full relative">
       <div className="relative flex items-center justify-between px-3 pt-3 md:px-20">
+        <button
+          onClick={onMenuClick}
+          className="md:hidden text-xl font-medium"
+          aria-label="Open menu"
+        >
+          ☰
+        </button>
+
         <div className="hidden md:block">
           <SearchBar />
         </div>
 
         <div
           className="
-          absolute left-1/2 -translate-x-1/2
-          md:static md:translate-x-0 mt-3
-        "
+            absolute left-1/2 -translate-x-1/2
+            md:static md:translate-x-0 mt-3
+          "
         >
           <Logo />
         </div>
@@ -28,3 +36,4 @@ const HeaderMain = () => {
 };
 
 export default HeaderMain;
+
