@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import HeroSlider from "@/components/HeroSlider";
 import HomeMotion from "@/components/HomeMotion";
+import Nightwear from "@/components/Nightwear";
 import SecondVideo from "@/components/SecondVideo";
 import React from "react";
 
@@ -11,6 +12,7 @@ const page = () => {
       <HomeMotion />
       <HeroSlider />
       <SecondVideo />
+      <Nightwear />
     </div>
   );
 };
