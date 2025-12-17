@@ -1,3 +1,4 @@
+import FeaturedBrands from "@/components/FeaturedBrands";
 import Hero from "@/components/Hero";
 import HeroSlider from "@/components/HeroSlider";
 import HomeMotion from "@/components/HomeMotion";
@@ -15,6 +16,7 @@ const page = () => {
       <SecondVideo />
       <Nightwear />
       <LatestTrends />
+      <FeaturedBrands />
     </div>
   );
 };
