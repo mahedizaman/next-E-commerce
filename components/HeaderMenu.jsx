@@ -10,8 +10,7 @@ const HeaderMenu = () => {
         {MenuData.map((item) => (
           <Link
             key={item.id}
-            href={`/${item.heading
-              .toUpperCase()}`}
+            href={`${item.href}`}
             className="text-gray-700 hover:text-black font-medium transition uppercase"
           >
             {item.heading}
