@@ -1,0 +1,43 @@
+
+export const womenBrandData = [
+  {
+    id:1,
+image:"/Womens/image36.png",
+  },
+  {
+    id:2,
+image:"/Womens/image37.png",
+  },
+  {
+    id:3,
+image:"/Womens/image38.png",
+  },
+  {
+    id:4,
+image:"/Womens/image39.png",
+  },
+  {
+    id:5,
+image:"/Womens/image40.png",
+  },
+  {
+    id:6,
+image:"/Womens/image49.png",
+  },
+  {
+    id:7,
+image:"/Womens/image50.png",
+  },
+  {
+    id:8,
+image:"/Womens/image51.png",
+  },
+  {
+    id:9,
+image:"/Womens/image52.png",
+  },
+  {
+    id:10,
+image:"/Womens/image53.png",
+  },
+];
