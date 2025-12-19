@@ -3,7 +3,7 @@ import WomenDescription from "./WomenDescription";
 
 const WomenLastComp = () => {
   return (
-    <div className="py-6">
+    <>
       <div className="flex flex-col  px-6 py-14 bg-[#fffff0]  gap-3 md:flex-row items-center justify-between">
         <div>
           <h2 className="text-7xl md:text-9xl uppercase">styled.</h2>
@@ -15,7 +15,7 @@ const WomenLastComp = () => {
         </div>
       </div>
       <WomenDescription />
-    </div>
+    </>
   );
 };
 

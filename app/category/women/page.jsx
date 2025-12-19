@@ -1,3 +1,4 @@
+import WomenBrandMotion from "@/components/WomenBrandMotion";
 import WomenByTrend from "@/components/WomenByTrend";
 import WomenCategory from "@/components/WomenCategory";
 import WomenComp2 from "@/components/WomenComp2";
@@ -16,7 +17,8 @@ const page = () => {
       <WomenByTrend />
       <WomenSplitCost />
       <WomenTrending />
-      <WomenLastComp/>
+      <WomenBrandMotion />
+      <WomenLastComp />
     </div>
   );
 };
