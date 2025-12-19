@@ -2,6 +2,7 @@ import WomenByTrend from "@/components/WomenByTrend";
 import WomenCategory from "@/components/WomenCategory";
 import WomenComp2 from "@/components/WomenComp2";
 import WomenHero from "@/components/WomenHero";
+import WomenLastComp from "@/components/WomenLastComp";
 import WomenSplitCost from "@/components/WomenSplitCost";
 import WomenTrending from "@/components/WomenTrending";
 import React from "react";
@@ -15,6 +16,7 @@ const page = () => {
       <WomenByTrend />
       <WomenSplitCost />
       <WomenTrending />
+      <WomenLastComp/>
     </div>
   );
 };
