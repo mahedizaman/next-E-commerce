@@ -39,7 +39,7 @@ const item = {
 const WomenTrending = () => {
   return (
     <div className="px-4 w-full mx-auto py-10">
-      <h3 className="uppercase text-gray-600 font-semibold text-lg md:text-2xl mb-6">
+      <h3 className="uppercase text-gray-600 font-semibold text-lg md:text-2xl text-center md:text-left mb-6">
         trending now
       </h3>
 
@@ -48,7 +48,7 @@ const WomenTrending = () => {
         variants={container}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: true, amount: 0.2 }} // scroll করলে trigger
+        viewport={{ once: true, amount: 0.2 }} 
       >
         {images.map((image, index) => (
           <motion.div

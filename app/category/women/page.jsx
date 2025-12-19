@@ -1,3 +1,4 @@
+import WomenByTrend from "@/components/WomenByTrend";
 import WomenCategory from "@/components/WomenCategory";
 import WomenComp2 from "@/components/WomenComp2";
 import WomenHero from "@/components/WomenHero";
@@ -11,6 +12,7 @@ const page = () => {
       <WomenComp2 />
       <WomenCategory />
       <WomenTrending />
+      <WomenByTrend/>
     </div>
   );
 };
