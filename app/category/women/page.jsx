@@ -2,6 +2,7 @@ import WomenByTrend from "@/components/WomenByTrend";
 import WomenCategory from "@/components/WomenCategory";
 import WomenComp2 from "@/components/WomenComp2";
 import WomenHero from "@/components/WomenHero";
+import WomenSplitCost from "@/components/WomenSplitCost";
 import WomenTrending from "@/components/WomenTrending";
 import React from "react";
 
@@ -11,8 +12,9 @@ const page = () => {
       <WomenHero />
       <WomenComp2 />
       <WomenCategory />
+      <WomenByTrend />
+      <WomenSplitCost />
       <WomenTrending />
-      <WomenByTrend/>
     </div>
   );
 };
