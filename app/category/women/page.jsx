@@ -1,9 +1,12 @@
-import React from 'react'
+import WomenHero from "@/components/WomenHero";
+import React from "react";
 
 const page = () => {
   return (
-    <div>Women</div>
-  )
-}
+    <div>
+      <WomenHero />
+    </div>
+  );
+};
 
-export default page
+export default page;

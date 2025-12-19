@@ -6,6 +6,7 @@ import HomeSubscribe from "@/components/HomeSubscribe";
 import LatestTrends from "@/components/LatestTrends";
 import Nightwear from "@/components/Nightwear";
 import SecondVideo from "@/components/SecondVideo";
+import WomenHero from "@/components/WomenHero";
 import React from "react";
 
 const page = () => {
