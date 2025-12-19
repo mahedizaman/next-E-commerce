@@ -2,7 +2,7 @@ import React from "react";
 
 const WomenDescription = () => {
   return (
-    <div className=" w-full md:w-[60vw] mt-16 px-6 text-xs text-gray-600 leading-relaxed text-sm sm:text-base  sm:leading-7 text-justify sm:text-left ">
+    <div className=" w-full md:w-[60vw] my-16 px-6 text-xs text-gray-600 leading-relaxed text-sm sm:text-base  sm:leading-7 text-justify sm:text-left ">
       Discover all the latest trends to keep your style on point this season.
       Think everything from casual summer dresses to broderie tops, crochet
       details, coordinated sets and all the trending shorts and swimwear you
