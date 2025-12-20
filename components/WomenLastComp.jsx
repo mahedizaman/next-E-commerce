@@ -1,5 +1,5 @@
 import React from "react";
-import WomenDescription from "./WomenDescription";
+import GlobalDescription from "./GlobalDescription";
 
 const WomenLastComp = () => {
   return (
@@ -14,7 +14,7 @@ const WomenLastComp = () => {
           </p>
         </div>
       </div>
-      <WomenDescription />
+      <GlobalDescription />
     </>
   );
 };

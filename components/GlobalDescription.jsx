@@ -1,6 +1,6 @@
 import React from "react";
 
-const WomenDescription = () => {
+const GlobalDescription = () => {
   return (
     <div className=" w-full md:w-[60vw] my-16 px-6 text-xs text-gray-600 leading-relaxed sm:leading-7 text-justify sm:text-left ">
       Discover all the latest trends to keep your style on point this season.
@@ -19,4 +19,4 @@ const WomenDescription = () => {
   );
 };
 
-export default WomenDescription;
+export default GlobalDescription;
