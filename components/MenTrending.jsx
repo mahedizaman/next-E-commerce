@@ -41,7 +41,7 @@ const MenTrending = () => {
         variants={container}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0.5 }}
+        viewport={{ once: false, amount: 0.1 }}
       >
         {images.map((image, index) => (
           <motion.div

@@ -1,4 +1,5 @@
 import GiftCard from "@/components/GiftCard";
+import GlobalDescription from "@/components/GlobalDescription";
 import MenBrandMotion from "@/components/MenBrendMotion";
 import MenByTrend from "@/components/MenByTrend";
 import MenCategory from "@/components/MenCategory";
@@ -23,6 +24,7 @@ const page = () => {
       <SplitCost />
       <MenWhatToWear/>
       <MenBrandMotion/>
+      <GlobalDescription/>
     </div>
   );
 };
