@@ -30,7 +30,6 @@ const WomenCategory = () => {
         shop by category
       </h3>
 
-      {/* Wrapper */}
       <motion.div
         className="overflow-x-auto md:overflow-x-hidden scrollbar-hide"
         initial="hidden"
