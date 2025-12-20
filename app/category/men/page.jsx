@@ -2,6 +2,7 @@ import GiftCard from '@/components/GiftCard'
 import MenByTrend from '@/components/MenByTrend'
 import MenCategory from '@/components/MenCategory'
 import MenHero from '@/components/MenHero'
+import MenTrending from '@/components/MenTrending'
 import React from 'react'
 
 const page = () => {
@@ -11,6 +12,7 @@ const page = () => {
       <GiftCard/>
       <MenCategory/>
       <MenByTrend/>
+      <MenTrending/>
     </div>
   )
 }

@@ -10,7 +10,6 @@ const images = [
   "/Womens/image24.jpg",
 ];
 
-// animation container
 const container = {
   hidden: {},
   show: {
@@ -20,11 +19,10 @@ const container = {
   },
 };
 
-// single item animation
 const item = {
   hidden: {
     opacity: 0,
-    y: 60, // নিচে থাকবে
+    y: 60, 
   },
   show: {
     opacity: 1,
@@ -48,7 +46,7 @@ const WomenTrending = () => {
         variants={container}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: true, amount: 0.2 }} 
+        viewport={{ once: false, amount: 0.5 }} 
       >
         {images.map((image, index) => (
           <motion.div
