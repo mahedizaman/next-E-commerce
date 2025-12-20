@@ -1,23 +1,24 @@
-import WomenBrandMotion from "@/components/WomenBrandMotion";
+import WomenBrandMotion from "@/components/BrandMotion";
 import WomenByTrend from "@/components/WomenByTrend";
 import WomenCategory from "@/components/WomenCategory";
-import WomenComp2 from "@/components/WomenComp2";
 import WomenHero from "@/components/WomenHero";
 import WomenLastComp from "@/components/WomenLastComp";
 import WomenSplitCost from "@/components/WomenSplitCost";
 import WomenTrending from "@/components/WomenTrending";
 import React from "react";
+import GiftCard from "@/components/GiftCard";
+import BrandMotion from "@/components/BrandMotion";
 
 const page = () => {
   return (
     <div>
       <WomenHero />
-      <WomenComp2 />
+      <GiftCard/>
       <WomenCategory />
       <WomenByTrend />
       <WomenSplitCost />
       <WomenTrending />
-      <WomenBrandMotion />
+      <BrandMotion/>
       <WomenLastComp />
     </div>
   );

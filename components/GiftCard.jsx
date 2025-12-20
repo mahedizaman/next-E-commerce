@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const WomenComp2 = () => {
+const GiftCard = () => {
   return (
     <div className="py-6 bg-[#faecec]">
       <div className="relative w-full h-[120px]  bg-[#9b8236]">
@@ -26,4 +26,4 @@ const WomenComp2 = () => {
   );
 };
 
-export default WomenComp2;
+export default GiftCard;

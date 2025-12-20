@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { womenBrandData } from "@/data/WomenBrandData";
 
-const WomenBrandMotion = () => {
+const BrandMotion = () => {
   const trackWidth = womenBrandData.length * 180;
 
   return (
@@ -43,4 +43,4 @@ const WomenBrandMotion = () => {
   );
 };
 
-export default WomenBrandMotion;
+export default BrandMotion;
