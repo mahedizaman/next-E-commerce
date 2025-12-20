@@ -25,7 +25,7 @@ export const menBrandData = [
   },
   {
     id: 7,
-    image: "/Men/image34.png",
+    image: "/Men/image34.jpg",
   },
   {
     id: 8,
