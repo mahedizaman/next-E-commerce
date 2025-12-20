@@ -3,11 +3,12 @@ import WomenByTrend from "@/components/WomenByTrend";
 import WomenCategory from "@/components/WomenCategory";
 import WomenHero from "@/components/WomenHero";
 import WomenLastComp from "@/components/WomenLastComp";
-import WomenSplitCost from "@/components/WomenSplitCost";
+import WomenSplitCost from "@/components/SplitCost";
 import WomenTrending from "@/components/WomenTrending";
 import React from "react";
 import GiftCard from "@/components/GiftCard";
 import BrandMotion from "@/components/BrandMotion";
+import SplitCost from "@/components/SplitCost";
 
 const page = () => {
   return (
@@ -16,7 +17,7 @@ const page = () => {
       <GiftCard/>
       <WomenCategory />
       <WomenByTrend />
-      <WomenSplitCost />
+      <SplitCost/>
       <WomenTrending />
       <BrandMotion/>
       <WomenLastComp />
